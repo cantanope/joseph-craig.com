@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(30, 29, 35);
+}
+
+
+
+/* 
+    Syling for title
+*/
+.title {
+    color: rgb(147, 66, 66);
+    font-family: quantico;
+    font-weight: auto;
+    text-align: center;
+    font-size: 60;
+    font-size-adjust:inherit;
+    margin-left: 20;
+    margin-right: 20;
+}
+
+
+/* 
+    Syliing for Menu bar
+*/
+ul.menu {
+    list-style-type: none;
+    margin: 20;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li.menu {
+    float: left;
+  }
+  
+  li.menu:last-child {
+    border-right: none;
+
+  }
+  
+  li.menu a {
+    font-family: quantico;
+    font-weight: auto;
+    font-size: 15;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  li.menu a:hover:not(.active) {
+    background-color: #515151;
+
+  }
+  
+  .active {
+    background-color: rgb(147, 66, 66);
+  }
+
+.textbox {
+    color: #fff;
+    background-color: #333; 
+    font-family: quantico;
+    font-weight: auto;
+    font-size: 15;
+    text-align: left;
+    margin-left: 20;
+    margin-right: 20;
+    margin-bottom: 20;
+    padding-left: 10;
+    padding-right: 10;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*
+    Style for certificate table
+*/
+
+.cert-table{
+    color: #fff;
+    background-color: #333; 
+    font-family: quantico;
+    font-weight: auto;
+    font-size: 15;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10;
+    padding-right: 10;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.cert-table.left {
+    border-right: solid 2px #515151;
+    width: 150;
+}
+
+.cert-table.right{
+    width: 250;
+}
+
+
+/*
+    stlye for images
+*/
+.image-center {
+    display: block;
+    margin: auto;
+}
+
+/* 
+  Style for Links
+*/
+
+a {
+  color: rgb(147, 66, 66);
+}
