@@ -5,7 +5,7 @@ This website always being revised and there will be lots of new additions.
 
 #### Future plans
 
-- [ ] Add a `Blog` section 
+- [x] Add a `Blog` section 
 - [ ] Add a `Projects` section 
 - [ ] Add Graphics
 - [x] Add information to 'Home' page
